@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+ul {
+    list-style: none;
+}
+
+.nav-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+.hero {
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937 
+    
+}
+
+* /* This is the universal selector */ {
+    
+    /* This eliminates space between borders */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.photos {
+    background-color: #ffff;
+}
+
+.quote {
+    background-color: grey;
+}
+
+.sign-up {
+    background-color: white;
+}
