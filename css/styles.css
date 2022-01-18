@@ -1,7 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
+* /* This is the universal selector */ {
+    
+    /* This eliminates space between borders */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /*background-color: #1F2937*/
+    
+}
+
 ul {
     list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(124, 212, 228);
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
 }
 
 .nav-logo img {
@@ -11,22 +46,17 @@ ul {
 }
 
 .hero {
+   /* color: white;*/
+}
+
+a {
+    text-decoration: none;
     color: white;
+    padding: 10px;
+    margin: 0 5px;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #1F2937 
-    
-}
 
-* /* This is the universal selector */ {
-    
-    /* This eliminates space between borders */
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
 .photos {
     background-color: #ffff;
@@ -39,3 +69,4 @@ body {
 .sign-up {
     background-color: white;
 }
+
