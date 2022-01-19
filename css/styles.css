@@ -15,6 +15,7 @@ body {
 
 ul {
     list-style: none;
+    font-size: 18px;
 }
 
 img {
@@ -26,13 +27,19 @@ img {
     height: 300px;
 }
 
-h1 {
+.hero h1 {
     font-weight: 800;
     margin-bottom: 10px;
+    font-size: 48px;
 }
 
 h2 {
     display: block;
+}
+
+.quote h6 {
+    margin-top: 10px;
+    margin-left: 500px;
 }
 
 .photos {
@@ -61,6 +68,8 @@ h2 {
     flex-direction: row;
     align-content: flex-start;
 }
+
+
 
 .hero-text button {
     width: 95px;
@@ -96,7 +105,10 @@ h2 {
     margin-right: 150px;
     width: 400px;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hero {
@@ -105,6 +117,7 @@ h2 {
    background-color: rgb(124, 212, 228);
    padding-top: 50px;
    padding-bottom: 100px;
+   justify-content: center;
 }
 
 a {
@@ -124,6 +137,19 @@ a {
 
 }
 
+.quote h1{
+    font-weight: lighter;
+}
+
+.quote h6 {
+    font-weight: bolder;
+}
+
+.quote {
+    display: flex;
+}
+
+
 .photos {
     background-color: #ffff;
     display: flex;
@@ -133,6 +159,7 @@ a {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .photos p {
@@ -140,10 +167,54 @@ a {
 }
 
 .quote {
-    background-color: grey;
+    background-color: rgb(182, 182, 182);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sign-up {
     background-color: white;
 }
 
+#quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#quote-name {
+    font-size: 18px;
+}
+
+.sign-up {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 200px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: rgb(132, 238, 241)
+    
+}
+
+.sign-up-button button {
+    width: 95px;
+    background: rgb(132, 238, 241);
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color:  rgb(124, 212, 228);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
